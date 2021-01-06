@@ -24,9 +24,43 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+			<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
 		
-		
+	  <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+
+        <dependency>
+			<groupId>com.graphql-java</groupId>
+			<artifactId>graphql-spring-boot-starter</artifactId>
+			<version>5.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.graphql-java</groupId>
+			<artifactId>graphql-java-tools</artifactId>
+			<version>5.2.4</version>
+		</dependency>
+
+		<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-jetty</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>sqljdbc4</artifactId>
+			<version>4.0</version>
+		</dependency> 
+	
 	</dependencies>
+	
 
 	<build>
 		<plugins>
